@@ -1,0 +1,169 @@
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+img {
+    width: 200px;
+   height: 150px;
+   margin-right: 20px;
+}
+.titulo-principal {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    transform: translate(8%, -50%);
+    font-size: 80px;
+    color: rgb(10, 197, 188);
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+.segundo-texto-principal {
+    position:relative;
+    color: rgb(10, 126, 134);
+    left:900px;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-style: oblique;
+}
+main {
+    width: 940px;
+    margin: auto;
+}
+form {
+    margin: 40px 0; /*margem superior e inferior de 40 px, para os lados zero*/
+}
+form label, form p { /*vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; /*10 pixels para baixo*/
+}
+.input-padrao {
+    display: block;
+    margin:  0 0 20px; /*20px para baixo*/
+    padding: 10px 25px;/*10 px p cima e p baixo e 25px p os lados*/
+    width: 50%;/*largura dos meus inputs*/
+}
+.logo1 {
+    width: 380px ;
+    height: 150px;
+    border-radius: 15px;
+}
+.checkbox {
+    margin: 20px 0; /*20 p cima e p baixo e zer nas laterais*/
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: rgb(5, 122, 131);
+    transform: scale(1.2);
+}
+.copyright {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+body {
+    background-color: #8a8485b0;
+}
+nav {
+    position: absolute;
+    top: 161px;
+    right: 30px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 87, 138);
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a:hover {
+    color: #06ffea;
+    text-decoration: underline;
+}
+main {
+    width: 940px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  head {
+    background-color: aqua;
+}
+
+  h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #071a58;
+}
+
+  .cart-item {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+  .cart-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+  .cart-item h3 {
+    margin: 0;
+}
+
+  .cart-item p {
+    margin: 0;
+}
+
+  .cart-total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+  .checkout-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+
+  .checkout-button:hover {
+    background-color: #071a58;
+}
+  input:required, textarea:required {
+    background-color: #cacacafd;
+  }
