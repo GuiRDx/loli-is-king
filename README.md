@@ -1,2 +1,2 @@
-# loli-is-king
+# meu-repositório
 só pra tranqueira
